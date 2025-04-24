@@ -1,0 +1,104 @@
+{% include header.html %}    
+<main>
+        
+    <h1>Skibidi Placeholder</h1>
+
+    <div class="container">
+        <div class="profile-holder">
+            <img class="profile" src="assets/img/måns.jpg" alt="">
+            <div class="text-content">
+                <h2>Edkin Sigmaholm</h2>
+                <p class="info">Sigma - Boy
+                </p>
+            </div>
+        </div>
+        <div class="buttonTop">
+            <button>Share</button>
+            <button>Tweet</button>
+            <button>Share</button>
+            <button>Copy</button>
+        </div>
+    </div>
+    {% for post in site.posts %}
+
+    {% if forloop.index == 1 %}
+    <section class="content">
+        <div class="text-left">
+            <img src="{{post.image}}" alt="">
+        </div>
+        <div class="text-right">
+            <h2>{{post.title}}</h2>
+            <p>{{post.content}}</p>
+        </div>
+    </section>
+    {% endif %}
+    
+    {% endfor %}
+    <section class="first">
+        <div class="image-container">
+            <div class="image-text">
+                <img src="assets/img/Bamse.jpg" alt="">
+                <p class="Bamse">Skibidi ohio based rizzler mogged edging streak</p>
+            </div>
+            <div></div>
+            <div class="image-text">
+                <img src="assets/img/Oski.jpg" alt="">
+                <p class="Oski">Sleepy Joe gooned to Kai Cenat, IShowSpeed German stare while attending sigma university</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="text-left">
+            <img src="assets/img/Wilker.jpg" alt="">
+        </div>
+        <div class="text-right">
+            <h2>Gooner edged to hard to monster energy</h2>
+            <p>Wilk the milk edged to hard and became monster addict. Turns out his bloodstream is now entirely made up of monster.</p>
+        </div>
+    </section>
+    
+    <section class="content">
+        <div class="text-left">
+            <h3>Gigachad</h3>
+            <p>This sigma got 10/10 on the ap brainrot quiz. Bro rizzed every huzz in a 10km radius.</p>
+        </div>
+        <div class="text-right">
+            <img src="assets/img/Edkin.jpg" alt="">
+        </div>
+    </section>
+
+<section class="Fortnite">
+    <img src="assets/img/Skibidi.png" alt="">
+</section>
+  
+<footer>
+    <section class="quote-section">
+        <p class="quote-symbol">❝</p>
+        <h4>Skibidi toilet is now in Fortnite battle royale, drop in and goon on the noobs.</h1>
+        <p class="subtext">
+            The infamous skibidi toilet just dropped in Fortnite battle royale, do you have what it takes to be a master gooner?
+        </p>
+        <p class="highlight-text">Red vs Blue pepe frog</p>
+    </section>
+
+    <hr class="divider">
+
+    <section class="newsletter">
+        <h5>Subscribe to our sigma newsletter</h2>
+        <p>Be the first to know about the skibidiest stories</p>
+        <form>
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p class="disclaimer">By signing up you give away all your human rights to Edkin Sigmaholm</p>
+    </section>
+
+</footer>
+
+    
+
+
+ </main>
+ 
+    {% include footer.html %}

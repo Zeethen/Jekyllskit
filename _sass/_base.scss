@@ -1,0 +1,17 @@
+$bg-color: #ffffff;
+
+body {
+    background-color: $bg-color;
+    display: flex;
+}
+
+h1{
+    display: block;
+    font-size: 150px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
