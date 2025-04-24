@@ -8,7 +8,7 @@ body {
 
 h1 {
   display: flex;
-  font-size: 150px;
+  font-size: 140px;
   align-items: center;
   justify-content: center;
   font-family: "Inter", sans-serif;
@@ -252,16 +252,16 @@ button:hover {
 }
 
 .Fortnite {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   height: 100vh; 
-  
+  overflow: hidden;
 }
 
 .Fortnite img {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 
